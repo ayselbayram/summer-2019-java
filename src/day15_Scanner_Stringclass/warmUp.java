@@ -10,7 +10,7 @@ public class warmUp {
 int num=-16;
 String result="";
 if(num>=0 && num<=9) {
-	if(num==1) 
+	if(num==9) 
 		result = "nine";
 	else if(num==8)
 		result="eight";

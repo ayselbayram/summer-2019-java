@@ -6,7 +6,7 @@ public class nextLine {
 	public static void main(String[] args) {
 		Scanner scan= new Scanner(System.in);
 		
-	//nextLine ,eyhods accepts the "enter" from th ekeyboard
+	//nextLine ,methods accepts the "enter" from the keyboard
 		
 		System.out.println("Enter your phone number");
 		//911 then "Enter"

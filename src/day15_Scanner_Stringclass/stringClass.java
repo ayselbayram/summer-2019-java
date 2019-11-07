@@ -20,14 +20,14 @@ public class stringClass {
 		 (string pool does not take duplicate)
 		 When the String object is created by using"new" keyword. 
 		 The object will be saved at java heap memory NOT in the string pool
-		 2. String object represent the sequences if characters=====>"ABCDE"these are all each character
+		 2. String object represent the sequences of characters=====>"ABCDE"these are all each character
 		 each character in String value has its own index number
 		 index number.index numbers starts from 0
 		 String str= "Cybertek";
 		 index number 01234567
 		 index number starts from "0"
 		 3. String is immutable:
-		      once you declare iy you can not modify it.
+		      once you declare it you can not modify it.
 
 		 */
 		
@@ -44,7 +44,7 @@ public class stringClass {
 		 //str stored in string pool
 		 //str2 stored in heap
 		 
-		 String str3 = new String("cybertek");
+		 String str3 = new String("Cybertek");
 		 System.out.println(str2==str3);//returns FALSE  because even data is the same 
 		 //2 different object created in heap memory location when created with "new" keyword 
 		 

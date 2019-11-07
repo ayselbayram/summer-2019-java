@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class task03 {
 public static void main(String[] args) {
 	/*
-	 write a program that asks to enter first anld last name at th eend shoul didsplay the full name
+	 write a program that asks to enter first and last name at th end shoul didsplay the full name
 	 */
 	Scanner input = new Scanner(System.in);
 	System.out.println("Enter your first name");

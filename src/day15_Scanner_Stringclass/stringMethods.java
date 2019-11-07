@@ -25,7 +25,7 @@ public class stringMethods {
               String str ="CYBERTEK";====>CYBERTEK
               str.yoLowerCase();===>cybertek
               
-          6- indexOf()
+          ,
           
 		 */
 		
