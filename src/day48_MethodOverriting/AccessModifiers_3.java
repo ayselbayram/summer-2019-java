@@ -10,9 +10,12 @@ class  Mahribana{
 		return "A";
 	}
 	
-	protected double salary(double bonus) {
+	protected static double salary(double bonus) {
 		
 		return bonus+1000;
+		
+	}
+	public static void main(String[] args) {
 		
 	}
 	
@@ -37,10 +40,19 @@ public class AccessModifiers_3 extends Mahribana {
 	}
 	
 	//override
-	@Override
-	protected double salary(double salary) {
-		return salary+2000;
+	// static hidden method
+	protected static double salary(double salary) {
+		return 2000;
 	}
-	
+	public static void main(String[] args) {
+		AccessModifiers_3 obj=new AccessModifiers_3();
+		System.out.println(obj.methodB());
+		obj.method();
+		
+		Mahribana obj2=new Mahribana();
+		System.out.println(obj2.methodB());
+		System.out.println("mahribaba"+obj2.salary(56));
+		System.out.println(obj.salary(56));
+	}
 
 }

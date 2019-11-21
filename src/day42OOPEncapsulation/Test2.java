@@ -8,7 +8,7 @@ public class Test2 {
 		String str=obj.getName();//we can assign thos data
 		System.out.println(obj.getID());
 		int a=obj.getID();//i can assign it to another int, since return something
-		
+		System.out.println(str);
 		//modify
 		//obj.Name="Nurzat"; can not acces since the data is private
 		

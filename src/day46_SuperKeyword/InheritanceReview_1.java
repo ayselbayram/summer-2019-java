@@ -22,7 +22,7 @@ public class InheritanceReview_1 extends Data {
    public static void main(String[] args) {
 	   
 //	   InheritanceReview_1 obj=new InheritanceReview_1();
-//	   System.out.println(obj.num1);
+//	   System.out.println(.obj.num1);
 	   //when we make them not static instance we can execute them by creating sub class object
 	   //i can also call  them by crating Data class object
 	   
@@ -32,7 +32,7 @@ public class InheritanceReview_1 extends Data {
 	System.out.println(num4);
 	
 	day46_protectedTest obj2=new day46_protectedTest();
-	//System.out.println(obj2.nameprotected);  i created an protected instace variable in another 
+//	System.out.println(obj2.name÷protected);  i created an protected instace variable in another 
 	//package and try to call ai here but proteced is not visible
 	System.out.println(obj2.namePublic);//i created in another package and called it here, public is worldwide
 //instance cs static
@@ -45,6 +45,7 @@ public class InheritanceReview_1 extends Data {
 	                    objB.insNum=400;
 	    System.out.println(objB.insNum);//400
 	    System.out.println(objB.staticNum);//100 only one copy for all objects
+	    
 	
 	
 }

@@ -22,6 +22,11 @@ class Cinthya {
 public class Constructors_4 extends Cinthya {
 	public Constructors_4() {
 		
+		
+		
+			
+		
+		
 
 	}
 	

@@ -44,6 +44,7 @@ public class SuperKeyword_2 extends A{
 //		this.name="Ihsan";//instances from the sub class
 		super.methodA(7);//super class
 		this.methodA(8);//sub class
+		this.name="Filiz";
 		System.out.println(super.name);
 		System.out.println(this.name);
 	}

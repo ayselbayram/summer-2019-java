@@ -10,12 +10,15 @@ class B extends A{
 	public void method1() {
 		this.name="Feride";//only change the B class variable
 		
-		super.name="Filiz";//since this variable is inheritad from A class it will be change in both place
-		this.name="Feride";
-		System.out.println(super.name);
+//		super.name="Filiz";//since this variable is inheritad from A class it will be change in both place
+//		this.name="Feride"
+	
+	
+	
+		System.out.println("*"+super.name);
 		System.out.println(this.name);
 			
-		}
+	}	
 	
 }
 
@@ -46,7 +49,7 @@ public class Inheritance_2 extends B{
 	System.out.println("=======================");
 	
 	A obj3=new A();
-	System.out.println(obj3.name);
+	System.out.println("--"+obj3.name);
 	
 	obj2.method1();
 	

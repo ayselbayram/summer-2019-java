@@ -1,4 +1,6 @@
 package day43JavaRecap;
+import day44_AccessModifiers.defaultAccessModifierPractice;
+
 
 public class cridentials6 {
 	
@@ -21,5 +23,10 @@ public class cridentials6 {
 		this.Password=Password;
 		
 	}
-
+    public static void main(String[] args) {
+    	defaultAccessModifierPractice obj=new defaultAccessModifierPractice();
+    	System.out.println(obj.namePublic);
+    	
+    	
+}
 }

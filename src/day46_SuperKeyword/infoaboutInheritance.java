@@ -9,9 +9,9 @@ public class infoaboutInheritance {
 	 *     subclass: sub class inherits faetures from the super class
 	 *              sub class get rich
 	 *              
-	 *              public and protected access modifiers can always inheritable in the sib class
+	 *              public and protected access modifiers can always inheritable in the sub class
 	 *              
-	 *              default access modifier can only be inheritad to the classess that are in the same package with
+	 *        default access modifier can only be inheritad to the classess that are in the same package with
 	 *              
 	 *              private can NEVER be inherited
 	 *              

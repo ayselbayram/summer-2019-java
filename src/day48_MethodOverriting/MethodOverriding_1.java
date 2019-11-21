@@ -18,7 +18,7 @@ public class MethodOverriding_1 extends Student{
 	public void print(double a) {
 		
 	}
-	
+	@Override
 	public void printName() {//overriding 
 		
 		System.out.println("Sukran");

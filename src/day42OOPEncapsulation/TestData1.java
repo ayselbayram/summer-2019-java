@@ -32,7 +32,10 @@ public class TestData1 {
 		this.ID=ID;
 	}
 	
-	
+	public static void main(String[] args) {
+		TestData1 obj=new TestData1();
+		System.out.println(obj.Name);
+	}
 	
 	
 

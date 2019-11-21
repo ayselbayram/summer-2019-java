@@ -8,7 +8,7 @@ class Mehmet{
 
 class Resul extends Mehmet{
 	public Resul() {
-		//super()// you cant just see it but it is there
+//		super();// you cant just see it but it is there
 		System.out.println("Resul");
 	}
 	
@@ -16,7 +16,7 @@ class Resul extends Mehmet{
 
 class Viktoria extends Resul{
 	public Viktoria() {
-		//super()//Resul contsructor
+//		super();//Resul contsructor
 		System.out.println("Viktoria");
 	}
 	

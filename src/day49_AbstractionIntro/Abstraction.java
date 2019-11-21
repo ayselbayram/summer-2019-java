@@ -1,6 +1,9 @@
 package day49_AbstractionIntro;
 
 public abstract class Abstraction {
+	public static void main(String[] args) {
+		
+	}
 	public abstract void startTheCar();
 		
 	}
@@ -15,6 +18,10 @@ class Toyota extends Abstraction{
 	}
 	public static void main(String[] args) {
 	//	Abstraction obj=new Abstraction();// abstraction class can not create object
+		Tesla tesla=new Tesla();
+		tesla.startTheCar();
+		Toyota toyota=new Toyota();
+		toyota.startTheCar();
 	}
 	
 }

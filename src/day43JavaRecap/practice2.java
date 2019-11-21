@@ -13,6 +13,8 @@ public class practice2 {
 		
 		practice2.printName();//Semra
 		printName();//Semra
+		staticKeyword1.printName();//from statickeyword class
+		
 		
 		//calling static variable
 		

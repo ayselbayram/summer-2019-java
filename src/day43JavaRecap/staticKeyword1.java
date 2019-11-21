@@ -24,6 +24,7 @@ public class staticKeyword1 {
 		staticKeyword1 obj=new staticKeyword1();
 		//System.out.println(InsName);//static only accepst static
 		System.out.println(obj.InsName);
+		obj.printName2();
 	}
 	
 	

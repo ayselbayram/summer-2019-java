@@ -19,6 +19,7 @@ public class Test5 {
 		printHello();
 		
 		System.out.println(age);//access modifier default
+		//System.out.println(Password); even this variable static but it is Private not visible in anpther class
 		
 		//private data from practice class
 		

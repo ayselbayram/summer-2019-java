@@ -1,5 +1,7 @@
 package day42OOPEncapsulation;
 
+
+
 public class employeeInfo {
 	/*
 	 Name
@@ -60,6 +62,11 @@ public class employeeInfo {
 		setSalary(Salary);
 		
 	//getInfo	
+	}
+		public static void main(String[] args) {
+			employeeInfo obj=new employeeInfo();
+			System.out.println(obj.Name);
+
 	
 
 }

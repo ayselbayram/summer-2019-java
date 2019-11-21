@@ -10,6 +10,7 @@ public class Cat extends Animal {
 		super(Gender, Age, Color, NickName);
 	}
 	
+	
 	@Override
 	public void Eat(String food) {// I also need to add this parameter in the abstract method
 		

@@ -16,6 +16,7 @@ public class DefaultConstructor_3 extends B {
 	 if we created a constructor in super with parameter we need to call it manually
 	 */
 	public DefaultConstructor_3() {
+		
 		super(8);
 		System.out.println("this is sub constructor");
 	}
